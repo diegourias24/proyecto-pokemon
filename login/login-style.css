@@ -1,0 +1,50 @@
+html {
+    background: #9032C8;
+    overflow-y: auto;
+    display: block;
+    font-family: 'Roboto';
+}
+ .logo {
+    width: 70%;
+    height: 60%;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 20%;
+    
+ }
+
+ .instructions {
+     font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 30px;
+ }
+
+ .keeper{
+     box-align: center;
+     display: list-item;
+
+    
+ }
+
+ .registrarse{
+     font-size: 100%;
+     color: #ffffff;
+ }
+
+ .botones{
+    width: 330px;
+    height: 50px;
+    border: 0;
+    font-size: 100%;
+ }
+
+ .boton-morado{
+     background-color: #f223c6;
+     color: #ffffff;
+    font-weight: bold;
+ }
+
+input{
+    padding-left: 15px;
+}
+
