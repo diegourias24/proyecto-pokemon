@@ -40,9 +40,39 @@ my_services = [
     }
   ];
 
-  let serviciosConfirmados = '';
+  let contenido = '';
 
-  for(let i=0; i<my_services.length; i++){
-      console.log(my_services[i]);
+  for(let i = 0; i < my_services.length; i++){
+      contenido += `<div class="tarjeta">
+      <div class="tarjeta-contenido">
+        <div class="contenedor-dato">
+          <p class="titulo">Dirección</p>
+          <p class="contenido">${ my_services[i].addres_street}</p>
+        </div>
+        <div class="linea">
+          <div class="contenedor-dato">
+            <p class="titulo">Fecha</p>
+            <p class="contenido">${my_services[i].date}</p>
+          </div>
+          <div class="contenedor-dato">
+            <p class="titulo">Hora</p>
+            <p class="contenido">${my_services[i].hour}</p>
+          </div>
+        </div>
+        <div class="linea">
+          <div class="contenedor-dato">
+            <p class="titulo">Duración</p>
+            <p class="contenido">${my_services[i].lenght} horas</p>
+          </div>
+          <div class="contenedor-dato">
+            <button class="boton-tipo">Recurrente</button>
+          </div>
+        </div>
+      </div>
+      <div class="detalles">Ver detalles</div>
+    </div>`
 
   }
+
+
+  document.getElementById("servicios").innerHTML = contenido;
