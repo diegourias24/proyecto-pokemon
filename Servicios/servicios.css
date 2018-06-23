@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.tarjeta{
+    width: 350px;
+    background-color:white;
+    box-shadow: 1px 4px 48px 0px rgba(56, 56, 56, 0.64);
+    display: block;
+    margin: 30px auto;
+
+   
+}
+
+.contenedor-dato{
+    margin: 20px;
+    
+}
+
+.titulo{
+    font-size: 18px;
+    color: gray;
+    margin: 0;
+}
+
+.contenido{
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;  
+}
+
+.divide{
+    display: inline-block;
+}
+
+.texto-izq{
+    text-align: left;
+}
+
+.linea{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-tipo{
+    width: 150px;
+    height: 50px;
+    background-color: #f1eff2;
+    color: rgb(144, 50, 200);
+    outline: none;
+    font-size: 16px;
+    border: none;
+}
+
+.boton-tipo:hover{
+    background-color:rgb(144, 50, 200);
+    color:#f1eff2;
+    font-size: 20px;
+}
+
+.boton-tipo:active{
+    background-color: rgb(124, 38, 173);
+}
+
+.detalles{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(144, 50, 200);
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tarjeta-contenido{
+    padding: 30px;
+}
+
+.detalles:hover{
+    background-color: rgb(96, 11, 145) ;
+
+}
